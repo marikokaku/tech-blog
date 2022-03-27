@@ -3,15 +3,18 @@
   <h2>
     Edit Post
   </h2>
-  <form class="edit-post-form">
+  <form id="edit-post-form">
     <div>
       <input name="post-title" type="text" value="{{post.title}}" />
-      <span>({{ post.}})</span>
     </div>
+    <div>
+      <textarea name="post-message">{{post.message}}</textarea>
+    </div>
+
     <button type="submit">Save post</button>
     <button type="button" class="delete-post-btn">Delete post</button>
-  </form>
-</article>
 
-<script src="/javascript/edit-post.js"></script>
-<script src="/javascript/delete-post.js"></script>
+    <input name="post-id" type="hidden" value="{{post.id}}" />
+
+    <script src="/scripts/edit-post.js"></script>
+    <script src="/scripts/delete-post.js"></script>

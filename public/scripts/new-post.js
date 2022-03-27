@@ -2,7 +2,7 @@ async function newFormHandler(event) {
     event.preventDefault();
   
     const title = document.querySelector('input[name="post-title"]').value;
-    const message = document.querySelector('input[name="post-message"]').value;
+    const message = document.querySelector('textarea[name="post-message"]').value;
     
 
     const response = await fetch(`/api/posts`, {
@@ -17,7 +17,7 @@ async function newFormHandler(event) {
     });
   
     if (response.ok) {
-      document.location.replace('/dashboard');
+      document.location.replace('/dashboard/');
     } else {
       alert(response.statusText);
     }
