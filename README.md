@@ -2,7 +2,7 @@
   
 <h2 align="center"> A blog site centered around tech topics where users can make an account, create blog posts, and comment on each other posts. </h2>
 
-
+![screenshot](/public/screenshot/screenshot.png)
 
 ## Table of Contents
 - [Requirements](#requirements)
@@ -15,6 +15,7 @@
 * Handlebars.js 
 * Sequelize
 * Express
+* `.env` file 
 
 ## Installation 
 

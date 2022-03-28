@@ -10,11 +10,11 @@
 
 <body>
   <div class="wrapper">
-    <header>
+    <nav>
       <h1>
         techtown 
       </h1>
-      <nav>
+      
         <a href="/">Home</a>
         {{#if loggedIn}}
         <a href="/dashboard">Dashboard</a>
@@ -24,7 +24,7 @@
         <a href="/login">login</a>
         {{/if}}
       </nav>
-    </header>
+    
     <main>
       {{{ body }}}
     </main>

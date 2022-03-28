@@ -22,7 +22,7 @@
   }
   
   button {
-    background-color: #BF40BF;
+    background-color: #943c52;
     border: 0;
     padding: 1%;
     color: white;
@@ -33,12 +33,13 @@
   }
   
   button:hover {
-    background-color: #f179cd;
+    background-color: #A95C68;
   }
   
   .post-list {
     margin: 0;
     padding: 0;
+    list-style: none;
   }
   
   textarea, input {
@@ -74,16 +75,22 @@
     flex-direction: column;
   }
   
-  header {
+  nav {
     border-bottom: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
   }
-  
-  header h1 {
+
+  nav h1{
     font-size: 1.5em;
+    color: #ffffff;
+    background-color: #770737;
+    box-shadow: 5px 7px #943c52;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 10px;
   }
   
   main {
@@ -122,12 +129,6 @@
     line-height: 150%;
   }
   
-  .post .title span {
-    font-style: italic;
-    font-size: 90%;
-    color: #7d7d7d;
-  }
-  
   .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
@@ -161,10 +162,3 @@
     margin-bottom: 5%;
   }
   
-  footer {
-    border-top: 1px solid #ccc;
-    display: flex;
-    justify-content: center;
-    padding: 1%;
-    font-size: 110%;
-  }
