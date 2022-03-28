@@ -28,7 +28,7 @@
 
 ## Links: 
 
-[Deployed Heroku](https://techtown-blog.herokuapp.com/api/posts)
+[Deployed Heroku](https://techtown-blog.herokuapp.com)
 
 ## For any additional questions:
 - Github: [marikokaku](https://github.com/marikokaku)
