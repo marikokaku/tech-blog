@@ -8,6 +8,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [License](#license)
+- [Links](#links)
 - [Questions](#questions)
 
 ## Requirements 
@@ -24,6 +25,10 @@
 ## License:
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Links: 
+
+[Deployed Heroku](https://techtown-blog.herokuapp.com/api/posts)
 
 ## For any additional questions:
 - Github: [marikokaku](https://github.com/marikokaku)
